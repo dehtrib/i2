@@ -1,7 +1,7 @@
 /* Full-page background image */
 
 @font-face {
-    font-family: corporate;
+    font-family: corporate, sans-serif;
     src: url("fonts/Corporate S Regular.ttf");
 }
 
@@ -9,7 +9,7 @@ body, html {
   margin: 0;
   padding: 0;
   height: 100%;
-  font-family: corporate;
+  font-family: corporate, sans-serif;
 }
 
 .background {
@@ -47,7 +47,7 @@ body, html {
   font-size: 1.5rem;
   text-decoration: none;
   padding: 10px 20px;
-  font-family: corporate;
+  font-family: corporate, sans-serif;
 }
 .overlay-content a:hover {
   text-decoration: underline;
