@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Overlay Links</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="background" onclick="showOverlay()"></div>
+
+  <div id="overlay" class="overlay">
+    <div class="overlay-content">
+      <a href="https://infinity2.bandcamp.com/" target="_blank"> BANDCAMP</a>
+      <a href="https://soundcloud.com/infinity_two" target="_blank">SOUNDCLOUD</a>
+      <a href="mailto:info@infinity-two.com">CONTACT</a>
+
+    </div>
+  </div>
+
+  <script>
+    function showOverlay() {
+      document.getElementById('overlay').style.display = 'flex';
+    }
+  </script>
+</body>
+</html>
