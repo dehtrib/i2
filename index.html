@@ -50,8 +50,9 @@
     })();
   </script>
 </head>
+  
 <body>
-  <div class="background" onclick="showOverlay()"></div>
+  <div class="background"></div>
 
   <div id="overlay" class="overlay">
     <div class="overlay-content">
@@ -61,5 +62,25 @@
       <a href="mailto:info@infinity-two.com">CONTACT</a>
     </div>
   </div>
+
+  <script>
+    const background = document.querySelector('.background');
+    const overlay = document.getElementById('overlay');
+
+    function showOverlay() {
+      overlay.style.display = 'flex';
+    }
+
+    function closeOverlay() {
+      overlay.style.display = 'none';
+    }
+
+    // Handle both click and touch
+    background.addEventListener('click', showOverlay);
+    background.addEventListener('touchstart', function(e) {
+      e.preventDefault(); // prevents double activation
+      showOverlay();
+    });
+  </script>
 </body>
 </html>
