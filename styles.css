@@ -52,3 +52,27 @@ body, html {
 .overlay-content a:hover {
   text-decoration: underline;
 }
+
+/* Artists page */
+
+.artists-page {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  background: #000;
+  color: #111;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.artists-page h1 {
+  margin: 0;
+  font-family: corporate, sans-serif;
+  font-size: 1.5rem;
+  font-weight: normal;
+  color: #111;
+  text-align: center;
+}
