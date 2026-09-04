@@ -73,6 +73,6 @@ body, html {
   font-family: corporate, sans-serif;
   font-size: 1.5rem;
   font-weight: normal;
-  color: #FFF;
+  color: rgb(65, 65, 65);
   text-align: center;
 }
