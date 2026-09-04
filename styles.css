@@ -55,7 +55,7 @@ body, html {
 
 /* Artists page */
 
-.artists-page {
+.Artists-page {
   margin: 0;
   padding: 0;
   width: 100%;
@@ -68,7 +68,7 @@ body, html {
   align-items: center;
 }
 
-.artists-page h1 {
+.Artists-page h1 {
   margin: 0;
   font-family: corporate, sans-serif;
   font-size: 1.5rem;
